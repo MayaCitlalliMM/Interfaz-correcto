@@ -12,9 +12,9 @@ namespace Interfaz_correcto
         public Alumno(int matricula,string nombre,int edad)
             :base(nombre,edad)
         {
-            this.matricula = matricula;
+            this.Matricula = matricula;
         }
 
-        public int matricula {  get; set; }
+        public int Matricula {  get; set; }
     }
 }
